@@ -1,5 +1,7 @@
 mod html;
 mod networking;
+mod rate_limiter;
+mod solver;
 
 use anyhow::*;
 use std::io::*;
